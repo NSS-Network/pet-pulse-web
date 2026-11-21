@@ -25220,8 +25220,10 @@ KA:function KA(a,b){this.c=a
 this.a=b},
 a7C:function a7C(a){this.a=a},
 yl:function yl(a){this.a=a},
-QZ:function QZ(){this.d=0
-this.c=this.a=null},
+QZ:function QZ(){var _=this
+_.d=0
+_.e="cat"
+_.c=_.a=null},
 ajG:function ajG(a){this.a=a},
 ajF:function ajF(a){this.a=a},
 ajH:function ajH(a){this.a=a},
@@ -25233,10 +25235,13 @@ ajD:function ajD(a,b){this.a=a
 this.b=b},
 ajC:function ajC(a,b){this.a=a
 this.b=b},
-Iy:function Iy(a){this.a=a},
+Iy:function Iy(a,b){this.c=a
+this.a=b},
 a0J:function a0J(){},
-a0K:function a0K(a){this.a=a},
-a0L:function a0L(a){this.a=a},
+a0K:function a0K(a,b){this.a=a
+this.b=b},
+a0L:function a0L(a,b){this.a=a
+this.b=b},
 IW:function IW(a){this.a=a},
 a2v:function a2v(a){this.a=a},
 a2w:function a2w(a){this.a=a},
@@ -84289,7 +84294,7 @@ A.yl.prototype={
 ap(){return new A.QZ()}}
 A.QZ.prototype={
 gac5(){var s=null
-return A.c([new A.xC(new A.ajG(this),s),new A.Kz(new A.ajH(this),s),new A.Iy(s),new A.IW(s),new A.za(s)],t.D)},
+return A.c([new A.xC(new A.ajG(this),s),new A.Kz(new A.ajH(this),s),new A.Iy(this.e,s),new A.IW(s),new A.za(s)],t.D)},
 K(a){var s=this,r=null,q=s.gac5()[s.d],p=A.a3(4294538006),o=A.fm(B.En,A.a3(4294967295),r,32)
 return new A.zX(q,new A.ID(o,p,new A.ajJ(s),B.UR,r),B.m8,new A.vY(A.kw(A.c([s.wC(B.Et,"\u0e2b\u0e19\u0e49\u0e32\u0e41\u0e23\u0e01",0),s.wC(B.nE,"\u0e19\u0e49\u0e2d\u0e07\u0e41\u0e21\u0e27",1),A.by(r,r,48),s.wC(B.Eq,"\u0e04\u0e27\u0e32\u0e21\u0e04\u0e34\u0e14\u0e40\u0e2b\u0e47\u0e19",3),s.wC(B.Ez,"\u0e42\u0e1b\u0e23\u0e44\u0e1f\u0e25\u0e4c",4)],t.D),B.kd,B.aN),new A.Yu(),8,r),r)},
 wC(a,b,c){var s=null,r=4294538006,q=4288585374,p=this.d===c,o=A.fm(a,p?A.a3(r):A.a3(q),s,s),n=p?A.a3(r):A.a3(q)
@@ -84306,7 +84311,9 @@ $1(a){var s=this.a
 s.aj(new A.ajE(s,a))},
 $S:109}
 A.ajE.prototype={
-$0(){this.a.d=2},
+$0(){var s=this.a
+s.e=this.b
+s.d=2},
 $S:0}
 A.ajJ.prototype={
 $0(){var s=this.a
@@ -84323,14 +84330,16 @@ A.ajC.prototype={
 $0(){return this.a.d=this.b},
 $S:0}
 A.Iy.prototype={
-K(a){var s,r,q=null,p=4294538006,o=4294967295,n=t.D,m=A.c([A.ah("\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e43\u0e2b\u0e49\u0e2d\u0e32\u0e2b\u0e32\u0e23 - \u0e21\u0e31\u0e07\u0e04\u0e38\u0e04",q,q,q,A.b5(q,q,q,q,q,q,q,q,q,q,q,28,q,q,B.a2,q,q,!0,q,q,q,q,q,q,q,q),q,q),A.by(q,12,q),A.fI(new A.cb(new A.ac(16,16,16,16),A.jL(A.c([A.ah("\u0e1b\u0e23\u0e34\u0e21\u0e32\u0e13\u0e2d\u0e32\u0e2b\u0e32\u0e23\u0e43\u0e19\u0e16\u0e31\u0e07",q,q,q,A.b5(q,q,q,q,q,q,q,q,q,q,q,20,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),A.ah("75%",q,q,q,A.b5(q,q,A.a3(p),q,q,q,q,q,q,q,q,48,q,q,B.a2,q,q,!0,q,q,q,q,q,q,q,q),q,q),new A.yd(0.75,q,A.a3(p),q,q,q,q)],n),B.bh,B.aN),q)),A.by(q,12,q),A.ah("\u0e15\u0e32\u0e23\u0e32\u0e07\u0e43\u0e2b\u0e49\u0e2d\u0e32\u0e2b\u0e32\u0e23",q,q,q,A.b5(q,q,q,q,q,q,q,q,q,q,q,22,q,q,B.a2,q,q,!0,q,q,q,q,q,q,q,q),q,q)],n),l=$.aI_
-B.b.O(m,new A.ab(l,new A.a0J(),A.Z(l).i("ab<1,f>")))
-m.push(A.by(q,12,q))
-l=A.lu(q,q,A.a3(p),q,q,q,q,q,q,q,q,q,new A.ac(16,16,16,16),q,q,q,q,q,q,q)
-l=A.Iw(A.iM(A.ah("\u0e43\u0e2b\u0e49 50g",q,q,q,A.b5(q,q,A.a3(o),q,q,q,q,q,q,q,q,20,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),new A.a0K(a),l))
-s=A.by(q,q,8)
-r=A.lu(q,q,A.a3(p),q,q,q,q,q,q,q,q,q,new A.ac(16,16,16,16),q,q,q,q,q,q,q)
-m.push(A.kw(A.c([l,s,A.Iw(A.iM(A.ah("\u0e43\u0e2b\u0e49 100g",q,q,q,A.b5(q,q,A.a3(o),q,q,q,q,q,q,q,q,20,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q),new A.a0L(a),r))],n),B.ba,B.aN))
+K(a){var s,r,q,p=null,o=4294538006,n=4294967295,m=this.c==="dog"?"\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e43\u0e2b\u0e49\u0e2d\u0e32\u0e2b\u0e32\u0e23 - \u0e19\u0e49\u0e2d\u0e07\u0e2b\u0e21\u0e32":"\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e43\u0e2b\u0e49\u0e2d\u0e32\u0e2b\u0e32\u0e23 - \u0e19\u0e49\u0e2d\u0e07\u0e41\u0e21\u0e27",l=t.D
+m=A.c([A.ah(m,p,p,p,A.b5(p,p,p,p,p,p,p,p,p,p,p,28,p,p,B.a2,p,p,!0,p,p,p,p,p,p,p,p),p,p),A.by(p,12,p),A.fI(new A.cb(new A.ac(16,16,16,16),A.jL(A.c([A.ah("\u0e1b\u0e23\u0e34\u0e21\u0e32\u0e13\u0e2d\u0e32\u0e2b\u0e32\u0e23\u0e43\u0e19\u0e16\u0e31\u0e07",p,p,p,A.b5(p,p,p,p,p,p,p,p,p,p,p,20,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),A.ah("75%",p,p,p,A.b5(p,p,A.a3(o),p,p,p,p,p,p,p,p,48,p,p,B.a2,p,p,!0,p,p,p,p,p,p,p,p),p,p),new A.yd(0.75,p,A.a3(o),p,p,p,p)],l),B.bh,B.aN),p)),A.by(p,12,p),A.ah("\u0e15\u0e32\u0e23\u0e32\u0e07\u0e43\u0e2b\u0e49\u0e2d\u0e32\u0e2b\u0e32\u0e23",p,p,p,A.b5(p,p,p,p,p,p,p,p,p,p,p,22,p,p,B.a2,p,p,!0,p,p,p,p,p,p,p,p),p,p)],l)
+s=$.aI_
+B.b.O(m,new A.ab(s,new A.a0J(),A.Z(s).i("ab<1,f>")))
+m.push(A.by(p,12,p))
+s=A.lu(p,p,A.a3(o),p,p,p,p,p,p,p,p,p,new A.ac(16,16,16,16),p,p,p,p,p,p,p)
+s=A.Iw(A.iM(A.ah("\u0e43\u0e2b\u0e49 50g",p,p,p,A.b5(p,p,A.a3(n),p,p,p,p,p,p,p,p,20,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),new A.a0K(this,a),s))
+r=A.by(p,p,8)
+q=A.lu(p,p,A.a3(o),p,p,p,p,p,p,p,p,p,new A.ac(16,16,16,16),p,p,p,p,p,p,p)
+m.push(A.kw(A.c([s,r,A.Iw(A.iM(A.ah("\u0e43\u0e2b\u0e49 100g",p,p,p,A.b5(p,p,A.a3(n),p,p,p,p,p,p,p,p,20,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p),new A.a0L(this,a),q))],l),B.ba,B.aN))
 return A.yf(m,new A.ac(16,16,16,16))}}
 A.a0J.prototype={
 $1(a){var s=null
@@ -84340,9 +84349,9 @@ A.a0K.prototype={
 $0(){var s=0,r=A.N(t.H),q=this,p,o
 var $async$$0=A.O(function(a,b){if(a===1)return A.K(b,r)
 for(;;)switch(s){case 0:s=2
-return A.P(A.yb("\u0e21\u0e31\u0e07\u0e04\u0e38\u0e04","50g"),$async$$0)
+return A.P(A.yb(q.a.c==="dog"?"\u0e19\u0e49\u0e2d\u0e07\u0e2b\u0e21\u0e32":"\u0e19\u0e49\u0e2d\u0e07\u0e41\u0e21\u0e27","50g"),$async$$0)
 case 2:p=b
-o=q.a.ab(t.J).f
+o=q.b.ab(t.J).f
 o.fh(A.eK(null,null,null,null,null,B.K,null,A.ah(p?"\u0e43\u0e2b\u0e49\u0e2d\u0e32\u0e2b\u0e32\u0e23 50g \u0e41\u0e25\u0e49\u0e27 - LINE \u0e2a\u0e48\u0e07\u0e41\u0e25\u0e49\u0e27":"\u0e2a\u0e48\u0e07\u0e44\u0e21\u0e48\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08",null,null,null,null,null,null),null,B.aJ,null,null,null,null,null,null,null,null,null,null))
 return A.L(null,r)}})
 return A.M($async$$0,r)},
@@ -84351,9 +84360,9 @@ A.a0L.prototype={
 $0(){var s=0,r=A.N(t.H),q=this,p,o
 var $async$$0=A.O(function(a,b){if(a===1)return A.K(b,r)
 for(;;)switch(s){case 0:s=2
-return A.P(A.yb("\u0e21\u0e31\u0e07\u0e04\u0e38\u0e04","100g"),$async$$0)
+return A.P(A.yb(q.a.c==="dog"?"\u0e19\u0e49\u0e2d\u0e07\u0e2b\u0e21\u0e32":"\u0e19\u0e49\u0e2d\u0e07\u0e41\u0e21\u0e27","100g"),$async$$0)
 case 2:p=b
-o=q.a.ab(t.J).f
+o=q.b.ab(t.J).f
 o.fh(A.eK(null,null,null,null,null,B.K,null,A.ah(p?"\u0e43\u0e2b\u0e49\u0e2d\u0e32\u0e2b\u0e32\u0e23 100g \u0e41\u0e25\u0e49\u0e27 - LINE \u0e2a\u0e48\u0e07\u0e41\u0e25\u0e49\u0e27":"\u0e2a\u0e48\u0e07\u0e44\u0e21\u0e48\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08",null,null,null,null,null,null),null,B.aJ,null,null,null,null,null,null,null,null,null,null))
 return A.L(null,r)}})
 return A.M($async$$0,r)},
